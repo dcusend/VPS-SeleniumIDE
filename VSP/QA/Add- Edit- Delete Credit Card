@@ -163,8 +163,33 @@
 </tr>
 <tr>
 	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>PaymentMethod Modification</td>
+</tr>
+<tr>
+	<td>verifyText</td>
 	<td>id=maincontent</td>
-	<td>PaymentMethod Modification Payment method successfully modified Credit Card Billing Information Application: Test VBillsEnrolled PA<br /> <br /> selenium selenium <br /> selenium <br /> jjjjjjjjjj <br /> PITTSBURGH, PA 15220 <br /> United States <br /> <br /> Card Information <br /> Card Nickname:credir card <br /> Card type:Visa <br /> Card number:xxx1111 <br /> Expiration:12/2020 <br /> <br /> Modify Credit Card&nbsp;&nbsp;&nbsp;Delete Credit Card&nbsp;&nbsp;&nbsp;Return to Profile <br /><br /> <br /> <br /> Payment Plans <br /> Payment Plan ID Actions No Payment Plans Available</td>
+	<td>regexp:PITTSBURGH.*</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=maincontent</td>
+	<td>regexp:PA.*</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=maincontent</td>
+	<td>regexp:15220.*</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=maincontent</td>
+	<td>regexp:Expiration:12/2025.*</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=maincontent</td>
+	<td>regexp:Payment method successfully modified.*</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
