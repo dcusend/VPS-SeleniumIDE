@@ -10,6 +10,7 @@
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="test.html">test</a></td></tr>
 <tr><td><a href="testSSN.html">testSSN</a></td></tr>
+<tr><td><a href="testAdminSuiteBootstrap.html">testAdminSuiteBootstrap</a></td></tr>
 </tbody></table>
 </body>
 </html>
